@@ -2,7 +2,7 @@
 
 Code and figures for `main.pdf`: discrete POMDP active inference with unknown transition and observation parameters, implemented as EFE minimization via variational message passing in [RxInfer.jl](https://github.com/ReactiveBayes/RxInfer.jl).
 
-## Results (brief)
+## Results
 
 The T-maze agent plans with epistemic priors so it both seeks the reward and learns Dirichlet beliefs over the A (observation) and B (transition) tensors. Representative behavior:
 
